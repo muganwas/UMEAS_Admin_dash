@@ -1,0 +1,33 @@
+.login-container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	#title-text {
+		font-size: var(--title-font);
+		text-align: center;
+		font-weight: 700;
+	}
+	.login {
+		display: flex;
+		flex-direction: column;
+		margin: var(--lg-pm);
+		box-sizing: border-box;
+		#email,
+		#password {
+			width: 300px;
+			font-size: var(--lg-font);
+			padding: var(--m-pm);
+			box-sizing: border-box;
+			margin-bottom: var(--m-pm);
+		}
+		#submit {
+			width: 300px;
+			height: 50px;
+			font-size: var(--lg-font);
+			box-sizing: border-box;
+		}
+	}
+}
